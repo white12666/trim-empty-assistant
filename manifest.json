@@ -1,0 +1,13 @@
+{
+    "display_name": "Trim Empty Assistant",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "author": "white12666",
+    "version": "1.0.0",
+    "homePage": "https://github.com/white12666/trim-empty-assistant",
+    "hooks": {
+        "activate": "init"
+    }
+}

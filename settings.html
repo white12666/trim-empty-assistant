@@ -1,0 +1,23 @@
+<div class="trim-empty-assistant-settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>删除末尾空 Assistant 消息</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+            <label class="checkbox_label" for="trim_empty_assistant_enabled">
+                <input id="trim_empty_assistant_enabled" type="checkbox" />
+                <span>启用</span>
+            </label>
+            <label class="checkbox_label" for="trim_empty_assistant_notify">
+                <input id="trim_empty_assistant_notify" type="checkbox" />
+                <span>删除时弹出提示</span>
+            </label>
+            <small>
+                对聊天补全（Chat Completion）类 API 生效，与具体提供商无关。
+                发送请求前，如果最后一条是内容为空（只有空白、零宽字符或"角色名:"前缀）的 assistant 消息，就把它删掉，连续多条会一并删除。
+                带工具调用、图片等非文本内容的消息不会被删。
+            </small>
+        </div>
+    </div>
+</div>
